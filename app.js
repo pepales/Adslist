@@ -21,16 +21,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 require('./lib/connectMongoose');
 require('./models/ad');
 
-app.locals.title = 'NodeAPI';
-
-// set default local variables
-app.use((req, res, next) => {
-  res.locals.title = 'Nodepop';
-  res.locals.articles = [];
-  res.locals.tags = [];
-  next();
-});
-
 // main sites
 app.use('/', require('./routes/index'));
 
