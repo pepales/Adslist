@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Old Bike",
+        "sell": true,
+        "price": 230.15,
+        "picture": "bike-190483_640.jpg",
+        "tags": [
+            "lifestyle",
+            "motor"
+        ]
+    },
+    {
+        "name": "iPhone 6",
+        "sell": false,
+        "price": 99.00,
+        "picture": "smartphone-1894723_640.jpg",
+        "tags": [
+            "lifestyle",
+            "mobile"
+        ]
+    },
+    {
+        "name": "Beetle",
+        "sell": false,
+        "price": 5000.00,
+        "picture": "vw-beetle-405876_640.jpg",
+        "tags": [
+            "lifestyle",
+            "motor"
+        ]
+    },
+    {
+        "name": "Vintage Clock",
+        "sell": true,
+        "price": 23.67,
+        "picture": "clock-3179167_640.jpg",
+        "tags": [
+            "lifestyle"
+        ]
+    },
+    {
+        "name": "Wood Table",
+        "sell": true,
+        "price": 155,
+        "picture": "table-336704_640.jpg",
+        "tags": [
+            "work"
+        ]
+    }
+]

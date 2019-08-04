@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>The api is running in http://localhost:3000/apiv1/</p>
+
+    <ul>
+      <li>| GET | /ads | Get all ads without filters</li>
+      <li>| GET | /ads?tags=mobile | Get ads by filter tags (without condition)</li>
+      <li>| GET | /ads?tags=lifestyle&sort=name | Get ads by filter tags by condition sort</li>
+      <li>| GET | /ads?sell=false | Get ads by filter sell </li>
+      <li>| GET | /ads?price=10-50 | Get ads by filter price between 10 and 50</li>
+      <li>| GET | /ads?price=10- | Get ads by filter price over 10</li>
+      <li>| GET | /ads?price=-50 | Get ads by filter price under 50</li>
+      <li>| GET | /ads?name=c | Get ads by filter name</li>
+      <li>| GET | /tags | Get all tags</li>
+      <li>| GET | /ads?skip=2&limit=2&sort=name | Get all ads paginated by condition sort</li>
+      <li>| POST | /ads | Create a new ad </li>  
+    </ul>
+  </body>
+</html>
